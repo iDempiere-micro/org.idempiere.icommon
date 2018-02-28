@@ -1,1 +1,1 @@
-# org.idempiere.icommon
+# iDempiere Core Common Interfaces (org.idempiere.icommon)
