@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':software.hsharp.api.icommon')
+    compile files('../software.hsharp.api.icommon/bin')    
+}

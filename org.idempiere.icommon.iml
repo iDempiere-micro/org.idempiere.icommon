@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":org.idempiere.icommon" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="ngdaisy-be" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":org.idempiere.icommon" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="idempiere-ng" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
@@ -41,6 +41,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="software.hsharp.api.icommon" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-library:2.12.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-osgi-bundle:1.2.21" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.osgi:org.osgi.framework:1.8.0" level="project" />
@@ -66,6 +67,16 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../software.hsharp.api.icommon/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="software.hsharp.api.icommon" scope="RUNTIME" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.scala-lang:scala-library:2.12.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-osgi-bundle:1.2.21" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.osgi:org.osgi.framework:1.8.0" level="project" />
@@ -91,6 +102,16 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../software.hsharp.api.icommon/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="software.hsharp.api.icommon" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.scalatest:scalatest_2.12:3.0.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.scalactic:scalactic_2.12:3.0.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.scala-lang:scala-reflect:2.12.1" level="project" />
@@ -127,5 +148,14 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../software.hsharp.api.icommon/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

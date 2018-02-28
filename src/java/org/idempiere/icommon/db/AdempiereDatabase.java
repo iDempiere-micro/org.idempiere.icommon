@@ -16,15 +16,17 @@
  *****************************************************************************/
 package org.idempiere.icommon.db;
 
+import org.idempiere.icommon.dbPort.IConvert;
+import org.idempiere.icommon.model.IPO;
+import software.hsharp.api.icommon.ICConnection;
+
+import javax.sql.DataSource;
 import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.SQLException;
 import java.sql.Timestamp;
-
-import javax.sql.DataSource;
-import org.idempiere.icommon.model.IPO;
-import org.idempiere.icommon.dbPort.IConvert;
+import software.hsharp.api.icommon.IDatabase;
 
 //import org.idempiere.common.util.CPreparedStatement;
 
@@ -34,7 +36,7 @@ import org.idempiere.icommon.dbPort.IConvert;
  *  @author     Jorg Janke
  *  @version    $Id: AdempiereDatabase.java,v 1.5 2006/09/22 23:35:19 jjanke Exp $
  */
-public interface AdempiereDatabase
+public interface AdempiereDatabase extends IDatabase
 {
 	
 	/** default lock timeout, 60 seconds **/
@@ -275,11 +277,7 @@ public interface AdempiereDatabase
 	 */
 	public DataSource getDataSource(ICConnection connection);
 
-	/**
-	 * 	Get Status
-	 * 	@return status info or null if no local datasource available
-	 */
-	public String getStatus();
+
 
 	/**
 	 * 	Close
