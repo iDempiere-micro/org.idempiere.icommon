@@ -1,6 +1,7 @@
 #
 #   ORG IDEMPIERE ICOMMON
 #
+Bundle-Name: iDempiere Core Common Interfaces
 Import-Package: !org.idempiere.icommon*,*
 Export-Package: \
  org.idempiere.icommon.base*,\
