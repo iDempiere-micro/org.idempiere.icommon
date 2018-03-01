@@ -55,14 +55,6 @@ public interface AdempiereDatabase extends IDatabase
 	public String getDescription();
 
 	/**
-	 *  Get and register Database Driver
-	 *  @return Driver
-	 *  @throws SQLException
-	 */
-	public Driver getDriver() throws SQLException;
-
-
-	/**
 	 *  Get Standard JDBC Port
 	 *  @return standard port
 	 */
