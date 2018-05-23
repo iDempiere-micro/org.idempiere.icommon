@@ -18,4 +18,8 @@ public interface IPO {
     int get_Table_ID();
 
     int get_ID();
+
+    Object get_ValueOfColumn(int ad_column_id);
+
+    int get_ColumnIndex(String token);
 }
